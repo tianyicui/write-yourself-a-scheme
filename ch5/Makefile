@@ -2,4 +2,4 @@
 	ghc --make -o $@ $<
 	hlint $<
 
-ALL: operatorparser.exe
+ALL: operatorparser.exe listparser.exe
